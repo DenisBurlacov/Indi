@@ -1,0 +1,5 @@
+a, b, c = int(input()), int(input()), int(input())
+a = hex(a).lstrip("0x").upper().rjust(2, '0')
+b = hex(b).lstrip("0x").upper().rjust(2, '0')
+c = hex(c).lstrip("0x").upper().rjust(2, '0')
+print("#" + a + b + c)

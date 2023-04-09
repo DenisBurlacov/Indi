@@ -1,3 +1,3 @@
-import math
-num = int(input())
-print(math.ceil(num / 10))
+# import math
+# num = int(input())
+# print(math.ceil(num / 10))
