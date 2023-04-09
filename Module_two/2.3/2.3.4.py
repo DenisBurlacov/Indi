@@ -1,0 +1,5 @@
+s = input()
+s1 = s[:3].upper()
+s2 = s[-3:].upper()
+s3 = s[3:-3].lower()
+print(s1 + s3 + s2)
