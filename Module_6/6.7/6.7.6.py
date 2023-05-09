@@ -55,7 +55,6 @@ data = {
 }
 
 sp = []
-
 for i in data['my_friends']['people']:
     sp.append(i['first_name'])
 print(*sorted(sp), sep='\n')
